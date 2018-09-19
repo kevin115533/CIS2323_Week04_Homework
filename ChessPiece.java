@@ -1,9 +1,10 @@
 public class ChessPiece{
 	
 	private String pos;
-	private String color, type;
+	private String color;
+	private char type;
 	
-	public void makePiece (String x, String y, String z){
+	public void makePiece (String x, char y, String z){
 		setColor(x);
 		setPosition(z);
 		setPieceType(y);
@@ -25,11 +26,11 @@ public class ChessPiece{
 		return color;
 	}
 	
-	public void setPieceType(String x){
+	public void setPieceType(char x){
 		type = x;
 	}
 	
-	public String getPieceType(){
+	public char getPieceType(){
 		return type;
 	}
 	
