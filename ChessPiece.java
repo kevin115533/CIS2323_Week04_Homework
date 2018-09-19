@@ -34,8 +34,6 @@ public class ChessPiece{
 	}
 	
 	public String printInfo(){
-		return "Color: " + color + "\n"
-		+ "Piece : " + type + "\n"
-		+ "Position: " + pos; 
+		return color + type + pos; 
 	}
 }	
